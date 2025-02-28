@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gxx/Documents/Cprojects/KV/kv.cpp
+kv.h
+/home/gxx/Documents/Cprojects/KV/kv.h
+thread
+-
+string.h
+-
+iostream
+-
+
+/home/gxx/Documents/Cprojects/KV/kv.h
+thread
+-
+mutex
+-
+

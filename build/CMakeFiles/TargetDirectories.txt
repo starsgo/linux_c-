@@ -1,0 +1,9 @@
+/home/gxx/Documents/Cprojects/build/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/main.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build/KV/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build/KV/CMakeFiles/kv.dir
+/home/gxx/Documents/Cprojects/build/KV/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build/SOCKET/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build/SOCKET/CMakeFiles/socket.dir
+/home/gxx/Documents/Cprojects/build/SOCKET/CMakeFiles/edit_cache.dir
