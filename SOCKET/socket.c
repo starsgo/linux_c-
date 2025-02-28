@@ -11,7 +11,7 @@
 
 void* socket_thread(void* arg){
     int lfd,cfd,efd;
-    int ret;
+    int ret,epoll_ret;
     int fd_num = 1;
 
     char buffer[1024];
@@ -45,12 +45,12 @@ void* socket_thread(void* arg){
 
     while(1){
         printf("epoll wair\n");
-        ret = epoll_wait(efd,evs,fd_num,-1);
-        if(ret == -1) printf("error:epoll_wait()\n");
+        epoll_ret = epoll_wait(efd,evs,fd_num,-1);
+        if(epoll_ret == -1) printf("error:epoll_wait()\n");
         printf("epoll:%d\n",ret);
 
         int i;
-        for(i = 0; i < ret; i++){
+        for(i = 0; i < epoll_ret; i++){
             if(evs[i].data.fd == lfd){
                 printf("epoll lfd\n");
 

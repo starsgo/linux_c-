@@ -2,7 +2,7 @@
 #define __SOCKET_H
 
 #define MAX_EPOLL 128
-#define PORT 6005
+#define PORT 6004
 #define MAX_LISTEN 50
 #define BUFFER_SIZE 1024
 
