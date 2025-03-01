@@ -48,7 +48,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/server.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/client.dir/DependInfo.cmake"
   "KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   "MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
