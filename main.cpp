@@ -1,12 +1,18 @@
 #include <iostream>
 #include "kv.h"
-extern "C"{
-	#include "socket.h"
-}
+
+#include "socket.h"
+#include "mysql.h"
+	//#include "log.h"
+
+
 int main(){
 	kvstore_t kvstore;
 	KV_STATUS ret;
 	char* res;
+
+	//log_init();
+	mysql_test();
 
 	ret = init_kvstore(&kvstore);
 	std::cout << ret;

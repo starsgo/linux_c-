@@ -11,10 +11,16 @@ typedef enum{
     SOCKET_ERROR = -1 ,
 } SOCKET_STATUS;
 
-SOCKET_STATUS start_socket();
-SOCKET_STATUS end_socket();
+#ifdef __cplusplus
+extern "C"{
+    SOCKET_STATUS start_socket();
+    SOCKET_STATUS end_socket();
 //void* socket_thread(void* arg);
+}
+#else
+    SOCKET_STATUS start_socket();
+    SOCKET_STATUS end_socket();  
 
-
+#endif
 
 #endif

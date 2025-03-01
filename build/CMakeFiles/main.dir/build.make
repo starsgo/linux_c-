@@ -95,6 +95,8 @@ main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: KV/libkv.a
 main: SOCKET/libsocket.a
+main: MYSQL/libmysql.a
+main: ../tools/mysql/lib/libmysqlclient.a
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

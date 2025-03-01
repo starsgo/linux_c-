@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "CMAKE_CURRENT_SOURCE_DIR")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gxx/Documents/Cprojects/build/KV/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build/SOCKET/cmake_install.cmake")
+  include("/home/gxx/Documents/Cprojects/build/MYSQL/cmake_install.cmake")
 
 endif()
 

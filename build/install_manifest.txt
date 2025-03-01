@@ -1,0 +1,3 @@
+/home/gxx/Documents/Cprojects/build/CMAKE_CURRENT_SOURCE_DIR/lib/libkv.a
+/home/gxx/Documents/Cprojects/build/CMAKE_CURRENT_SOURCE_DIR/lib/libsocket.a
+/home/gxx/Documents/Cprojects/build/CMAKE_CURRENT_SOURCE_DIR/lib/libmysql.a

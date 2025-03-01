@@ -10,10 +10,14 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS_DEBUG "-g -O0")
 set(CMAKE_C_FLAGS_DEBUG "-g -O0")
 
+set(CMAKE_INSTALL_PREFIX CMAKE_CURRENT_SOURCE_DIR)
+
 add_subdirectory(KV)
 add_subdirectory(SOCKET)
+add_subdirectory(MYSQL)
 
 add_executable(main main.cpp)
 target_link_libraries(main kv)
 target_link_libraries(main socket)
 target_link_libraries(main pthread)
+target_link_libraries(main mysql)

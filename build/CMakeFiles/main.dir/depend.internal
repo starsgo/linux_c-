@@ -3,5 +3,6 @@
 
 CMakeFiles/main.dir/main.cpp.o
  ../KV/./kv.h
+ ../MYSQL/./mysql.h
  ../SOCKET/./socket.h
  /home/gxx/Documents/Cprojects/main.cpp

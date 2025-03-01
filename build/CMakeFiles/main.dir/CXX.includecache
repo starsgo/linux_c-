@@ -12,6 +12,8 @@ thread
 mutex
 -
 
+../MYSQL/./mysql.h
+
 ../SOCKET/./socket.h
 
 /home/gxx/Documents/Cprojects/main.cpp
@@ -21,4 +23,6 @@ kv.h
 /home/gxx/Documents/Cprojects/kv.h
 socket.h
 /home/gxx/Documents/Cprojects/socket.h
+mysql.h
+/home/gxx/Documents/Cprojects/mysql.h
 

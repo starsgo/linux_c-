@@ -191,6 +191,9 @@ main_BINARY_DIR:STATIC=/home/gxx/Documents/Cprojects/build
 main_SOURCE_DIR:STATIC=/home/gxx/Documents/Cprojects
 
 //Dependencies for target
+mysql_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 socket_LIB_DEPENDS:STATIC=
 
 
@@ -292,7 +295,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
