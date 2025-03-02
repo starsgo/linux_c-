@@ -9,7 +9,14 @@
 #include <string.h>
 #include <errno.h>
 
+
+
 void* socket_thread(void* arg){
+
+    socket_para_t* para = (socket_para_t*)arg;
+    function func = para->func;
+    int port = para->port;
+
     int lfd,cfd,efd;
     int ret,epoll_ret;
     int fd_num = 1;
@@ -23,7 +30,7 @@ void* socket_thread(void* arg){
     bzero(&serv_addr,sizeof(serv_addr));
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
-    serv_addr.sin_port = htons(PORT);
+    serv_addr.sin_port = htons(port);
 
     lfd = socket(AF_INET,SOCK_STREAM,0);
     if(lfd == -1) printf("error:socket()\n");
@@ -68,7 +75,12 @@ void* socket_thread(void* arg){
                 continue;
             }
             ret = read(evs[i].data.fd,buffer,sizeof(buffer));
+
+
             printf("epoll cfd recv: %d\n",ret);
+            func(buffer,ret);
+            
+            
             if(ret <= 0 ){
                 close(evs[i].data.fd);
                 ev.data.fd = evs[i].data.fd;
@@ -89,8 +101,8 @@ void* socket_thread(void* arg){
 
 pthread_t tid;
 
-SOCKET_STATUS start_socket(){
-    int status = pthread_create(&tid,NULL,socket_thread,NULL);
+SOCKET_STATUS start_socket(socket_para_t* socket_para){
+    int status = pthread_create(&tid,NULL,socket_thread,socket_para);
     if(status == -1) printf("error:pthread_create()\n");
     printf("pthread created\n");
     return SOCKET_SUCCESS;

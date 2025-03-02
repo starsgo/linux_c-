@@ -1,1 +1,1 @@
-/usr/bin/gcc -g -O0   CMakeFiles/client.dir/client.c.o  -o client ../tools/websocket/lib/libwebsockets.a -lssl -ldl 
+/usr/bin/gcc -g -O0   CMakeFiles/client.dir/client.c.o  -o client ../tools/websocket/lib/libwebsockets.a -lssl -lcrypto -ldl 

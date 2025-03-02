@@ -28,3 +28,10 @@
 /home/gxx/Documents/Cprojects/build/MYSQL/CMakeFiles/rebuild_cache.dir
 /home/gxx/Documents/Cprojects/build/MYSQL/CMakeFiles/list_install_components.dir
 /home/gxx/Documents/Cprojects/build/MYSQL/CMakeFiles/install/local.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/install/strip.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/http.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/list_install_components.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/install/local.dir
+/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/install.dir

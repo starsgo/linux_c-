@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../KV/."
   "../SOCKET/."
   "../MYSQL/."
+  "../HTTP/."
   )
 
 # Targets to which this target links.
@@ -20,6 +21,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/gxx/Documents/Cprojects/build/KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build/SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build/MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
+  "/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

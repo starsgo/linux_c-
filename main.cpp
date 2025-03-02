@@ -2,6 +2,7 @@
 #include "kv.h"
 
 #include "socket.h"
+#include "http.h"
 #include "mysql.h"
 	//#include "log.h"
 
@@ -28,9 +29,7 @@ int main(){
 	ret = destroy_kvstore(&kvstore);
 	std::cout << ret;
 
-
-	start_socket();
-	end_socket();
+	start_http();
 	std::cout<<"1";
 
 }

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../HTTP/CMakeLists.txt"
   "../KV/CMakeLists.txt"
   "../MYSQL/CMakeLists.txt"
   "../SOCKET/CMakeLists.txt"
@@ -44,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "KV/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SOCKET/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MYSQL/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "HTTP/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -54,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   "MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
+  "HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   )

@@ -237,6 +237,19 @@ mysql/fast:
 	$(MAKE) -f MYSQL/CMakeFiles/mysql.dir/build.make MYSQL/CMakeFiles/mysql.dir/build
 .PHONY : mysql/fast
 
+#=============================================================================
+# Target rules for targets named http
+
+# Build rule for target.
+http: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 http
+.PHONY : http
+
+# fast build rule for target.
+http/fast:
+	$(MAKE) -f HTTP/CMakeFiles/http.dir/build.make HTTP/CMakeFiles/http.dir/build
+.PHONY : http/fast
+
 client.o: client.c.o
 
 .PHONY : client.o
@@ -336,6 +349,7 @@ help:
 	@echo "... kv"
 	@echo "... socket"
 	@echo "... mysql"
+	@echo "... http"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"

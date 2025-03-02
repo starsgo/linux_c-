@@ -1,1 +1,1 @@
-/usr/bin/g++  -g -O0   CMakeFiles/main.dir/main.cpp.o  -o main KV/libkv.a SOCKET/libsocket.a -lpthread MYSQL/libmysql.a ../tools/mysql/lib/libmysqlclient.a -ldl 
+/usr/bin/g++  -g -O0   CMakeFiles/main.dir/main.cpp.o  -o main KV/libkv.a SOCKET/libsocket.a MYSQL/libmysql.a HTTP/libhttp.a ../tools/mysql/lib/libmysqlclient.a -ldl SOCKET/libsocket.a -lpthread 
