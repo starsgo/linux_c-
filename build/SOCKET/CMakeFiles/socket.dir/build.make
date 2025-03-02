@@ -63,15 +63,15 @@ include SOCKET/CMakeFiles/socket.dir/flags.make
 SOCKET/CMakeFiles/socket.dir/socket.c.o: SOCKET/CMakeFiles/socket.dir/flags.make
 SOCKET/CMakeFiles/socket.dir/socket.c.o: ../SOCKET/socket.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SOCKET/CMakeFiles/socket.dir/socket.c.o"
-	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/socket.dir/socket.c.o   -c /home/gxx/Documents/Cprojects/SOCKET/socket.c
+	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/socket.dir/socket.c.o   -c /home/gxx/Documents/Cprojects/SOCKET/socket.c
 
 SOCKET/CMakeFiles/socket.dir/socket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/socket.dir/socket.c.i"
-	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/SOCKET/socket.c > CMakeFiles/socket.dir/socket.c.i
+	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/SOCKET/socket.c > CMakeFiles/socket.dir/socket.c.i
 
 SOCKET/CMakeFiles/socket.dir/socket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/socket.dir/socket.c.s"
-	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/SOCKET/socket.c -o CMakeFiles/socket.dir/socket.c.s
+	cd /home/gxx/Documents/Cprojects/build/SOCKET && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/SOCKET/socket.c -o CMakeFiles/socket.dir/socket.c.s
 
 SOCKET/CMakeFiles/socket.dir/socket.c.o.requires:
 

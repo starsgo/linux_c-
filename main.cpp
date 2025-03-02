@@ -3,7 +3,7 @@
 
 #include "socket.h"
 #include "http.h"
-#include "mysql.h"
+// #include "mysql.h"
 	//#include "log.h"
 
 
@@ -13,7 +13,7 @@ int main(){
 	char* res;
 
 	//log_init();
-	mysql_test();
+	// mysql_test();
 
 	ret = init_kvstore(&kvstore);
 	std::cout << ret;

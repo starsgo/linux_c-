@@ -63,15 +63,15 @@ include KV/CMakeFiles/kv.dir/flags.make
 KV/CMakeFiles/kv.dir/kv.cpp.o: KV/CMakeFiles/kv.dir/flags.make
 KV/CMakeFiles/kv.dir/kv.cpp.o: ../KV/kv.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object KV/CMakeFiles/kv.dir/kv.cpp.o"
-	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kv.dir/kv.cpp.o -c /home/gxx/Documents/Cprojects/KV/kv.cpp
+	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kv.dir/kv.cpp.o -c /home/gxx/Documents/Cprojects/KV/kv.cpp
 
 KV/CMakeFiles/kv.dir/kv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kv.dir/kv.cpp.i"
-	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/KV/kv.cpp > CMakeFiles/kv.dir/kv.cpp.i
+	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/KV/kv.cpp > CMakeFiles/kv.dir/kv.cpp.i
 
 KV/CMakeFiles/kv.dir/kv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kv.dir/kv.cpp.s"
-	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/KV/kv.cpp -o CMakeFiles/kv.dir/kv.cpp.s
+	cd /home/gxx/Documents/Cprojects/build/KV && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/KV/kv.cpp -o CMakeFiles/kv.dir/kv.cpp.s
 
 KV/CMakeFiles/kv.dir/kv.cpp.o.requires:
 

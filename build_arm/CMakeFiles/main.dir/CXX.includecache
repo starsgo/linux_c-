@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../HTTP/./http.h
+
+../KV/./kv.h
+thread
+-
+mutex
+-
+
+../SOCKET/./socket.h
+
+/home/gxx/Documents/Cprojects/main.cpp
+iostream
+-
+kv.h
+/home/gxx/Documents/Cprojects/kv.h
+socket.h
+/home/gxx/Documents/Cprojects/socket.h
+http.h
+/home/gxx/Documents/Cprojects/http.h
+

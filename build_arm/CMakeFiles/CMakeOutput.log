@@ -1,0 +1,624 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 5.4.0-150-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8cd16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8cd16.dir/build.make CMakeFiles/cmTC_8cd16.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8cd16.dir/testCXXCompiler.cxx.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_8cd16.dir/testCXXCompiler.cxx.o -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8cd16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8cd16.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_8cd16.dir/testCXXCompiler.cxx.o  -o cmTC_8cd16 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5eaee/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5eaee.dir/build.make CMakeFiles/cmTC_5eaee.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5eaee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaee.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5eaee 
+Using built-in specs.
+COLLECT_GCC=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++
+COLLECT_LTO_WRAPPER=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.1 20230401 [releases/gcc-12 revision 3a8829e0e1b523a36477f5c8a49d72caaae3b9d7] (GCC) 
+COMPILER_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5eaee' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_5eaee.'
+ /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2 -plugin /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7IlCDr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_5eaee /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5eaee' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_5eaee.'
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5eaee/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5eaee.dir/build.make CMakeFiles/cmTC_5eaee.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++     -o CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5eaee]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaee.dir/link.txt --verbose=1]
+  ignore line: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++      -v -rdynamic CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5eaee ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.1 20230401 [releases/gcc-12 revision 3a8829e0e1b523a36477f5c8a49d72caaae3b9d7] (GCC) ]
+  ignore line: [COMPILER_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5eaee' '-shared-libgcc' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_5eaee.']
+  link line: [ /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2 -plugin /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7IlCDr.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_5eaee /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc7IlCDr.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5eaee] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o] ==> ignore
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_5eaee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/12.2.1]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/12.2.1;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c953/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c953.dir/build.make CMakeFiles/cmTC_7c953.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c953.dir/feature_tests.cxx.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -std=c++1z -o CMakeFiles/cmTC_7c953.dir/feature_tests.cxx.o -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7c953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c953.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_7c953.dir/feature_tests.cxx.o  -o cmTC_7c953 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c60f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0c60f.dir/build.make CMakeFiles/cmTC_0c60f.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0c60f.dir/feature_tests.cxx.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -std=c++14 -o CMakeFiles/cmTC_0c60f.dir/feature_tests.cxx.o -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0c60f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c60f.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_0c60f.dir/feature_tests.cxx.o  -o cmTC_0c60f 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6684/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6684.dir/build.make CMakeFiles/cmTC_e6684.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6684.dir/feature_tests.cxx.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -std=c++11 -o CMakeFiles/cmTC_e6684.dir/feature_tests.cxx.o -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e6684
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6684.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_e6684.dir/feature_tests.cxx.o  -o cmTC_e6684 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_53072/fast"
+/usr/bin/make -f CMakeFiles/cmTC_53072.dir/build.make CMakeFiles/cmTC_53072.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53072.dir/feature_tests.cxx.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++    -std=c++98 -o CMakeFiles/cmTC_53072.dir/feature_tests.cxx.o -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_53072
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53072.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++       -rdynamic CMakeFiles/cmTC_53072.dir/feature_tests.cxx.o  -o cmTC_53072 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a11c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a11c5.dir/build.make CMakeFiles/cmTC_a11c5.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a11c5.dir/testCCompiler.c.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_a11c5.dir/testCCompiler.c.o   -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a11c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a11c5.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_a11c5.dir/testCCompiler.c.o  -o cmTC_a11c5 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6a558/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6a558.dir/build.make CMakeFiles/cmTC_6a558.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_6a558
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a558.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o  -o cmTC_6a558 
+Using built-in specs.
+COLLECT_GCC=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc
+COLLECT_LTO_WRAPPER=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper
+Target: aarch64-linux-gnu
+Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-linux-gnu
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.1 20230401 [releases/gcc-12 revision 3a8829e0e1b523a36477f5c8a49d72caaae3b9d7] (GCC) 
+COMPILER_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/bin/
+LIBRARY_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a558' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6a558.'
+ /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2 -plugin /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3POW02.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_6a558 /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a558' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6a558.'
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_6a558/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_6a558.dir/build.make CMakeFiles/cmTC_6a558.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc    -o CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_6a558]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a558.dir/link.txt --verbose=1]
+  ignore line: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc     -v -rdynamic CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o  -o cmTC_6a558 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper]
+  ignore line: [Target: aarch64-linux-gnu]
+  ignore line: [Configured with: '/home/tcwg-buildslave/workspace/tcwg-gnu-build/snapshots/gcc.git~releases~gcc-12/configure' SHELL=/bin/bash --with-mpc=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-mpfr=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gmp=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --with-gnu-as --with-gnu-ld --disable-libmudflap --enable-lto --enable-shared --without-included-gettext --enable-nls --with-system-zlib --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --with-cloog=no --with-ppl=no --with-isl=no --disable-multilib --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --with-arch=armv8-a --enable-threads=posix --enable-multiarch --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-sysroot=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu/aarch64-linux-gnu/libc --enable-checking=release --disable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/home/tcwg-buildslave/workspace/tcwg-gnu-build/_build/builds/destdir/x86_64-pc-linux-gnu --build=x86_64-pc-linux-gnu --host=x86_64-pc-linux-gnu --target=aarch64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.1 20230401 [releases/gcc-12 revision 3a8829e0e1b523a36477f5c8a49d72caaae3b9d7] (GCC) ]
+  ignore line: [COMPILER_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib/:/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_6a558' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_6a558.']
+  link line: [ /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2 -plugin /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so -plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3POW02.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-835769 --fix-cortex-a53-843419 -o cmTC_6a558 /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64 -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib -L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o /home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o]
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../libexec/gcc/aarch64-linux-gnu/12.2.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3POW02.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [--fix-cortex-a53-835769] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6a558] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crt1.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crti.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtbegin.o] ==> ignore
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib]
+    arg [-L/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib]
+    arg [CMakeFiles/cmTC_6a558.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/crtend.o] ==> ignore
+    arg [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/12.2.1]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib/../lib64] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../lib/gcc/aarch64-linux-gnu/12.2.1/../../../../aarch64-linux-gnu/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib]
+  collapse library dir [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/../aarch64-linux-gnu/libc/usr/lib] ==> [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu/12.2.1;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc/aarch64-linux-gnu;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/lib/gcc;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib64;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/lib;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/lib;/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/aarch64-linux-gnu/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a611/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0a611.dir/build.make CMakeFiles/cmTC_0a611.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a611.dir/feature_tests.c.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -std=c11 -o CMakeFiles/cmTC_0a611.dir/feature_tests.c.o   -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0a611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a611.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_0a611.dir/feature_tests.c.o  -o cmTC_0a611 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_abd38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_abd38.dir/build.make CMakeFiles/cmTC_abd38.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_abd38.dir/feature_tests.c.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -std=c99 -o CMakeFiles/cmTC_abd38.dir/feature_tests.c.o   -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_abd38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abd38.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_abd38.dir/feature_tests.c.o  -o cmTC_abd38 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac502/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac502.dir/build.make CMakeFiles/cmTC_ac502.dir/build
+make[1]: Entering directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac502.dir/feature_tests.c.o
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc   -std=c90 -o CMakeFiles/cmTC_ac502.dir/feature_tests.c.o   -c /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ac502
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac502.dir/link.txt --verbose=1
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc      -rdynamic CMakeFiles/cmTC_ac502.dir/feature_tests.c.o  -o cmTC_ac502 
+make[1]: Leaving directory '/home/gxx/Documents/Cprojects/build_arm/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

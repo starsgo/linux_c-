@@ -1,0 +1,4 @@
+/home/gxx/Documents/Cprojects/output/bin/main
+/home/gxx/Documents/Cprojects/output/lib/libkv.a
+/home/gxx/Documents/Cprojects/output/lib/libsocket.a
+/home/gxx/Documents/Cprojects/output/lib/libhttp.a

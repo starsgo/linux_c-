@@ -1,0 +1,1 @@
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-gcc -g -O0   CMakeFiles/client.dir/client.c.o  -o client ../tools/websocket/lib/libwebsockets.a -lssl -lcrypto -ldl 

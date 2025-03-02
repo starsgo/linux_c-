@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../SOCKET/socket.h
+
+/home/gxx/Documents/Cprojects/HTTP/http.cpp
+iostream
+-
+string
+-
+sstream
+-
+fstream
+-
+unordered_map
+-
+netinet/in.h
+-
+unistd.h
+-
+sys/stat.h
+-
+socket.h
+-
+

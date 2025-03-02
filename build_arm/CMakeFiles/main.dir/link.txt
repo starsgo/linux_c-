@@ -1,0 +1,1 @@
+/home/gxx/Documents/arm/gcc-linaro-12.2.1-2023.04-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-g++     CMakeFiles/main.dir/main.cpp.o  -o main KV/libkv.a SOCKET/libsocket.a -lpthread HTTP/libhttp.a SOCKET/libsocket.a -lpthread 
