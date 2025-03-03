@@ -19,6 +19,13 @@
 /home/gxx/Documents/Cprojects/build_arm/SOCKET/CMakeFiles/list_install_components.dir
 /home/gxx/Documents/Cprojects/build_arm/SOCKET/CMakeFiles/install/local.dir
 /home/gxx/Documents/Cprojects/build_arm/SOCKET/CMakeFiles/install.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/install/strip.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/mysql.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/install.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/list_install_components.dir
+/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/install/local.dir
 /home/gxx/Documents/Cprojects/build_arm/HTTP/CMakeFiles/install/strip.dir
 /home/gxx/Documents/Cprojects/build_arm/HTTP/CMakeFiles/edit_cache.dir
 /home/gxx/Documents/Cprojects/build_arm/HTTP/CMakeFiles/http.dir

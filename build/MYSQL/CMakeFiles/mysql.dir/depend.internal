@@ -3,6 +3,7 @@
 
 MYSQL/CMakeFiles/mysql.dir/mysql.c.o
  /home/gxx/Documents/Cprojects/MYSQL/mysql.c
+ /home/gxx/Documents/Cprojects/MYSQL/mysql.h
  /home/gxx/Documents/Cprojects/tools/mysql/include/binary_log_types.h
  /home/gxx/Documents/Cprojects/tools/mysql/include/my_alloc.h
  /home/gxx/Documents/Cprojects/tools/mysql/include/my_command.h

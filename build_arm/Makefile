@@ -204,6 +204,19 @@ socket/fast:
 .PHONY : socket/fast
 
 #=============================================================================
+# Target rules for targets named mysql
+
+# Build rule for target.
+mysql: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mysql
+.PHONY : mysql
+
+# fast build rule for target.
+mysql/fast:
+	$(MAKE) -f MYSQL/CMakeFiles/mysql.dir/build.make MYSQL/CMakeFiles/mysql.dir/build
+.PHONY : mysql/fast
+
+#=============================================================================
 # Target rules for targets named http
 
 # Build rule for target.
@@ -258,6 +271,7 @@ help:
 	@echo "... install"
 	@echo "... kv"
 	@echo "... socket"
+	@echo "... mysql"
 	@echo "... http"
 	@echo "... main.o"
 	@echo "... main.i"

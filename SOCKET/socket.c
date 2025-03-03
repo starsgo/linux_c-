@@ -38,6 +38,9 @@ void* socket_thread(void* arg){
     ret = fcntl(lfd,F_SETFL,fcntl(lfd,F_GETFD,0)|O_NONBLOCK);
     if(ret == -1) printf("error:fcntl()\n");
 
+    int opt = 1;
+    setsockopt(lfd,SOL_SOCKET,SO_REUSEADDR, (const void*)&opt, sizeof(opt));
+
     ret = bind(lfd, (struct sockadddr*)&serv_addr, sizeof(struct sockaddr));
     if(ret == -1) printf("error:bind()%d\n",errno);
 
@@ -78,7 +81,7 @@ void* socket_thread(void* arg){
 
 
             printf("epoll cfd recv: %d\n",ret);
-            func(buffer,ret);
+            func(buffer,ret,cfd);
             
             
             if(ret <= 0 ){

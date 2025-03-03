@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gxx/Documents/Cprojects/KV/. -I/home/gxx/Documents/Cprojects/SOCKET/. -I/home/gxx/Documents/Cprojects/HTTP/. 
+CXX_INCLUDES = -I/home/gxx/Documents/Cprojects/KV/. -I/home/gxx/Documents/Cprojects/SOCKET/. -I/home/gxx/Documents/Cprojects/MYSQL/. -I/home/gxx/Documents/Cprojects/HTTP/. 
 

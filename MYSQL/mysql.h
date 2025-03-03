@@ -6,3 +6,6 @@ extern "C"{
 #else
     int mysql_test();
 #endif
+
+#define debug
+// #define release

@@ -1,12 +1,10 @@
 /home/gxx/Documents/Cprojects/build/CMakeFiles/install/strip.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/install.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/server.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/rebuild_cache.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/main.dir
 /home/gxx/Documents/Cprojects/build/CMakeFiles/edit_cache.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/install/local.dir
-/home/gxx/Documents/Cprojects/build/CMakeFiles/client.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/main.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/rebuild_cache.dir
 /home/gxx/Documents/Cprojects/build/CMakeFiles/list_install_components.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/install/local.dir
+/home/gxx/Documents/Cprojects/build/CMakeFiles/install.dir
 /home/gxx/Documents/Cprojects/build/KV/CMakeFiles/install/strip.dir
 /home/gxx/Documents/Cprojects/build/KV/CMakeFiles/edit_cache.dir
 /home/gxx/Documents/Cprojects/build/KV/CMakeFiles/rebuild_cache.dir

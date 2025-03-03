@@ -12,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../KV/."
   "../SOCKET/."
+  "../MYSQL/."
   "../HTTP/."
   )
 
@@ -19,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/gxx/Documents/Cprojects/build_arm/KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build_arm/SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
+  "/home/gxx/Documents/Cprojects/build_arm/MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build_arm/HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   )
 

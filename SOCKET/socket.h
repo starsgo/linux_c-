@@ -7,7 +7,7 @@
 #define BUFFER_SIZE 1024
 
 
-typedef void (*function)(char*,int);
+typedef void (*function)(char*,int,int);
 typedef struct socket_parm_s{
     int port;
     function func;

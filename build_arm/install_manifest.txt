@@ -1,4 +1,5 @@
-/home/gxx/Documents/Cprojects/output/bin/main
-/home/gxx/Documents/Cprojects/output/lib/libkv.a
-/home/gxx/Documents/Cprojects/output/lib/libsocket.a
-/home/gxx/Documents/Cprojects/output/lib/libhttp.a
+/home/gxx/Documents/Cprojects/output/aarch64/bin/main
+/home/gxx/Documents/Cprojects/output/aarch64/lib/libkv.a
+/home/gxx/Documents/Cprojects/output/aarch64/lib/libsocket.a
+/home/gxx/Documents/Cprojects/output/aarch64/lib/libmysql.a
+/home/gxx/Documents/Cprojects/output/aarch64/lib/libhttp.a

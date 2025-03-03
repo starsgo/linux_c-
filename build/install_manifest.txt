@@ -1,0 +1,5 @@
+/home/gxx/Documents/Cprojects/output/x86/bin/main
+/home/gxx/Documents/Cprojects/output/x86/lib/libkv.a
+/home/gxx/Documents/Cprojects/output/x86/lib/libsocket.a
+/home/gxx/Documents/Cprojects/output/x86/lib/libmysql.a
+/home/gxx/Documents/Cprojects/output/x86/lib/libhttp.a

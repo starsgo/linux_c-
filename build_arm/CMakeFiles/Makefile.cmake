@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../HTTP/CMakeLists.txt"
   "../KV/CMakeLists.txt"
+  "../MYSQL/CMakeLists.txt"
   "../SOCKET/CMakeLists.txt"
   "../aarch64-linux-gnu.cmake"
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
@@ -44,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "KV/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SOCKET/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "MYSQL/CMakeFiles/CMakeDirectoryInformation.cmake"
   "HTTP/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -52,5 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
+  "MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
   "HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   )

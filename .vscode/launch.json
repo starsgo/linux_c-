@@ -8,9 +8,12 @@
             "name": "(gdb) Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/main",
+            // "program": "${workspaceFolder}/build/main",
+            "program": "${workspaceFolder}/webserver/main",
+
             "stopAtEntry": true,
-            "cwd":"${workspaceFolder}/build",
+            // "cwd":"${workspaceFolder}/build",
+            "cwd":"${workspaceFolder}",
             "MIMode": "gdb",
             "setupCommands": [
                 {

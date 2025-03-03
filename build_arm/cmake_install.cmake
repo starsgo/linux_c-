@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gxx/Documents/Cprojects/output")
+  set(CMAKE_INSTALL_PREFIX "/home/gxx/Documents/Cprojects/output/aarch64")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -51,6 +51,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gxx/Documents/Cprojects/build_arm/KV/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build_arm/SOCKET/cmake_install.cmake")
+  include("/home/gxx/Documents/Cprojects/build_arm/MYSQL/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build_arm/HTTP/cmake_install.cmake")
 
 endif()

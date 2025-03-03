@@ -63,15 +63,15 @@ include HTTP/CMakeFiles/http.dir/flags.make
 HTTP/CMakeFiles/http.dir/http.cpp.o: HTTP/CMakeFiles/http.dir/flags.make
 HTTP/CMakeFiles/http.dir/http.cpp.o: ../HTTP/http.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object HTTP/CMakeFiles/http.dir/http.cpp.o"
-	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http.dir/http.cpp.o -c /home/gxx/Documents/Cprojects/HTTP/http.cpp
+	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/http.dir/http.cpp.o -c /home/gxx/Documents/Cprojects/HTTP/http.cpp
 
 HTTP/CMakeFiles/http.dir/http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/http.dir/http.cpp.i"
-	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/HTTP/http.cpp > CMakeFiles/http.dir/http.cpp.i
+	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/HTTP/http.cpp > CMakeFiles/http.dir/http.cpp.i
 
 HTTP/CMakeFiles/http.dir/http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/http.dir/http.cpp.s"
-	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/HTTP/http.cpp -o CMakeFiles/http.dir/http.cpp.s
+	cd /home/gxx/Documents/Cprojects/build/HTTP && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/HTTP/http.cpp -o CMakeFiles/http.dir/http.cpp.s
 
 HTTP/CMakeFiles/http.dir/http.cpp.o.requires:
 
