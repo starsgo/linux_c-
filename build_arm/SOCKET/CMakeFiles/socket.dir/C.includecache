@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../LOG/log.h
+
 /home/gxx/Documents/Cprojects/SOCKET/socket.c
 socket.h
 /home/gxx/Documents/Cprojects/SOCKET/socket.h
@@ -26,6 +28,8 @@ unistd.h
 string.h
 -
 errno.h
+-
+log.h
 -
 
 /home/gxx/Documents/Cprojects/SOCKET/socket.h

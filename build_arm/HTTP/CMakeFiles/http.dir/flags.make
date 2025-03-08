@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gxx/Documents/Cprojects/SOCKET 
+CXX_INCLUDES = -I/home/gxx/Documents/Cprojects/SOCKET -I/home/gxx/Documents/Cprojects/LOG 
 

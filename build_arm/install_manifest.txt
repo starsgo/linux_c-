@@ -1,4 +1,6 @@
 /home/gxx/Documents/Cprojects/output/aarch64/bin/main
+/home/gxx/Documents/Cprojects/output/aarch64/lib/liblog.a
+/home/gxx/Documents/Cprojects/output/aarch64/lib/libclog.a
 /home/gxx/Documents/Cprojects/output/aarch64/lib/libkv.a
 /home/gxx/Documents/Cprojects/output/aarch64/lib/libsocket.a
 /home/gxx/Documents/Cprojects/output/aarch64/lib/libmysql.a

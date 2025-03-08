@@ -94,11 +94,13 @@ main_EXTERNAL_OBJECTS =
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: KV/libkv.a
-main: SOCKET/libsocket.a
 main: MYSQL/libmysql.a
 main: HTTP/libhttp.a
+main: LOG/liblog.a
+main: LOG/libclog.a
 main: ../tools/arm/mysql/lib/libmysqlclient.a
 main: SOCKET/libsocket.a
+main: LOG/liblog.a
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gxx/Documents/Cprojects/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
@@ -118,11 +120,13 @@ main_EXTERNAL_OBJECTS =
 CMakeFiles/CMakeRelink.dir/main: CMakeFiles/main.dir/main.cpp.o
 CMakeFiles/CMakeRelink.dir/main: CMakeFiles/main.dir/build.make
 CMakeFiles/CMakeRelink.dir/main: KV/libkv.a
-CMakeFiles/CMakeRelink.dir/main: SOCKET/libsocket.a
 CMakeFiles/CMakeRelink.dir/main: MYSQL/libmysql.a
 CMakeFiles/CMakeRelink.dir/main: HTTP/libhttp.a
+CMakeFiles/CMakeRelink.dir/main: LOG/liblog.a
+CMakeFiles/CMakeRelink.dir/main: LOG/libclog.a
 CMakeFiles/CMakeRelink.dir/main: ../tools/arm/mysql/lib/libmysqlclient.a
 CMakeFiles/CMakeRelink.dir/main: SOCKET/libsocket.a
+CMakeFiles/CMakeRelink.dir/main: LOG/liblog.a
 CMakeFiles/CMakeRelink.dir/main: CMakeFiles/main.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gxx/Documents/Cprojects/build_arm/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CMakeFiles/CMakeRelink.dir/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/relink.txt --verbose=$(VERBOSE)

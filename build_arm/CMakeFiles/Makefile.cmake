@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../HTTP/CMakeLists.txt"
   "../KV/CMakeLists.txt"
+  "../LOG/CMakeLists.txt"
   "../MYSQL/CMakeLists.txt"
   "../SOCKET/CMakeLists.txt"
   "../aarch64-linux-gnu.cmake"
@@ -43,6 +44,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LOG/CMakeFiles/CMakeDirectoryInformation.cmake"
   "KV/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SOCKET/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MYSQL/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -52,6 +54,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "LOG/CMakeFiles/clog.dir/DependInfo.cmake"
+  "LOG/CMakeFiles/log.dir/DependInfo.cmake"
   "KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   "MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"

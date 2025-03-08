@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../LOG/log.h
+
 ../SOCKET/socket.h
 
 /home/gxx/Documents/Cprojects/HTTP/http.cpp
@@ -26,5 +28,7 @@ unistd.h
 sys/stat.h
 -
 socket.h
--
+/home/gxx/Documents/Cprojects/HTTP/socket.h
+log.h
+/home/gxx/Documents/Cprojects/HTTP/log.h
 

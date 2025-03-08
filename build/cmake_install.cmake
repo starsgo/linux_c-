@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -55,6 +55,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/gxx/Documents/Cprojects/build/LOG/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build/KV/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build/SOCKET/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build/MYSQL/cmake_install.cmake")

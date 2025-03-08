@@ -14,6 +14,16 @@ thread
 mutex
 -
 
+../LOG/./CLog.h
+iostream
+-
+ctime
+-
+fstream
+-
+
+../LOG/./log.h
+
 ../MYSQL/./mysql.h
 
 ../SOCKET/./socket.h
@@ -29,4 +39,8 @@ http.h
 /home/gxx/Documents/Cprojects/http.h
 mysql.h
 /home/gxx/Documents/Cprojects/mysql.h
+log.h
+/home/gxx/Documents/Cprojects/log.h
+CLog.h
+/home/gxx/Documents/Cprojects/CLog.h
 

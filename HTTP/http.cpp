@@ -6,7 +6,8 @@
 #include <netinet/in.h>
 #include <unistd.h>
 #include <sys/stat.h>
-#include <socket.h>
+#include "socket.h"
+#include "log.h"
 
 #define PORT 8081
 #define BUFFER_SIZE 4096
@@ -85,5 +86,6 @@ void start_http(){
     para.port = 8087;
 
     start_socket(&para);
+    log_debug("start_http\n");
 	end_socket();
 }

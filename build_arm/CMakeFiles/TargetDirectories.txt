@@ -5,6 +5,14 @@
 /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/list_install_components.dir
 /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/install/local.dir
 /home/gxx/Documents/Cprojects/build_arm/CMakeFiles/install.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/install/strip.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/install/local.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/clog.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/list_install_components.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/log.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build_arm/LOG/CMakeFiles/install.dir
 /home/gxx/Documents/Cprojects/build_arm/KV/CMakeFiles/install/strip.dir
 /home/gxx/Documents/Cprojects/build_arm/KV/CMakeFiles/edit_cache.dir
 /home/gxx/Documents/Cprojects/build_arm/KV/CMakeFiles/rebuild_cache.dir

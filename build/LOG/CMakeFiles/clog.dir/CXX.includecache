@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gxx/Documents/Cprojects/LOG/CLog.cpp
+CLog.h
+/home/gxx/Documents/Cprojects/LOG/CLog.h
+ctime
+-
+iostream
+-
+sstream
+-
+fstream
+-
+string.h
+-
+
+/home/gxx/Documents/Cprojects/LOG/CLog.h
+iostream
+-
+ctime
+-
+fstream
+-
+

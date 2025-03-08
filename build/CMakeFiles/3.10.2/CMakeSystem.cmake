@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Linux")
 set(CMAKE_HOST_SYSTEM_VERSION "5.4.0-150-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/gxx/Documents/Cprojects/x86-linux-gnu.cmake")
+
 
 set(CMAKE_SYSTEM "Linux-5.4.0-150-generic")
 set(CMAKE_SYSTEM_NAME "Linux")

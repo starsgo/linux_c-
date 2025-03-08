@@ -8,7 +8,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <errno.h>
-
+#include <log.h>
 
 
 void* socket_thread(void* arg){
@@ -54,7 +54,8 @@ void* socket_thread(void* arg){
     if(ret == -1) printf("error:epoll_ctl()\n");
 
     while(1){
-        printf("epoll wair\n");
+        // printf("epoll wait\n");
+        log_debug("epoll_wait\n");
         epoll_ret = epoll_wait(efd,evs,fd_num,-1);
         if(epoll_ret == -1) printf("error:epoll_wait()\n");
         printf("epoll:%d\n",ret);

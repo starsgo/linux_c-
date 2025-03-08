@@ -173,6 +173,32 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named clog
+
+# Build rule for target.
+clog: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clog
+.PHONY : clog
+
+# fast build rule for target.
+clog/fast:
+	$(MAKE) -f LOG/CMakeFiles/clog.dir/build.make LOG/CMakeFiles/clog.dir/build
+.PHONY : clog/fast
+
+#=============================================================================
+# Target rules for targets named log
+
+# Build rule for target.
+log: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 log
+.PHONY : log
+
+# fast build rule for target.
+log/fast:
+	$(MAKE) -f LOG/CMakeFiles/log.dir/build.make LOG/CMakeFiles/log.dir/build
+.PHONY : log/fast
+
+#=============================================================================
 # Target rules for targets named kv
 
 # Build rule for target.
@@ -264,6 +290,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... clog"
+	@echo "... log"
 	@echo "... kv"
 	@echo "... socket"
 	@echo "... mysql"

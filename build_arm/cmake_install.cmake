@@ -49,6 +49,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
+  include("/home/gxx/Documents/Cprojects/build_arm/LOG/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build_arm/KV/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build_arm/SOCKET/cmake_install.cmake")
   include("/home/gxx/Documents/Cprojects/build_arm/MYSQL/cmake_install.cmake")
