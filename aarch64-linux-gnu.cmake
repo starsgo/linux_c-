@@ -1,4 +1,4 @@
-message(STATUS "----------------x86-linux-gnu---------------")
+message(STATUS "----------------aarch-linux-gnu---------------")
 set(CMAKE_SYSTEM_NAME Linux)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 

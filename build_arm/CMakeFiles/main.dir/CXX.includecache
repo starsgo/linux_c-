@@ -24,8 +24,6 @@ fstream
 
 ../LOG/./log.h
 
-../MYSQL/./mysql.h
-
 ../SOCKET/./socket.h
 
 /home/gxx/Documents/Cprojects/main.cpp
@@ -37,8 +35,6 @@ socket.h
 /home/gxx/Documents/Cprojects/socket.h
 http.h
 /home/gxx/Documents/Cprojects/http.h
-mysql.h
-/home/gxx/Documents/Cprojects/mysql.h
 log.h
 /home/gxx/Documents/Cprojects/log.h
 CLog.h

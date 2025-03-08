@@ -3,7 +3,7 @@
 
 #include "socket.h"
 #include "http.h"
-#include "mysql.h"
+//#include "mysql.h"
 #include "log.h"
 #include "CLog.h"
 
@@ -21,7 +21,7 @@ int main(){
 	CLog::CStore() << "aaabbbccc\n" << 123456789 << "endl";
 	CLog::CStore() << "zzxxccvvbb\n" << 123456789 << "endl";
 
-	mysql_test();
+	//mysql_test();
 
 	ret = init_kvstore(&kvstore);
 	std::cout << ret;

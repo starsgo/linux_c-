@@ -24,7 +24,7 @@ add_subdirectory(KV)
 add_subdirectory(SOCKET)
 add_subdirectory(MYSQL)
 add_subdirectory(HTTP)
-
+add_subdirectory(THREADPOOL)
 
 if(DEFINED x86)
 
@@ -38,6 +38,7 @@ target_link_libraries(main mysql)
 target_link_libraries(main http)
 target_link_libraries(main log)
 target_link_libraries(main clog)
+target_link_libraries(main threadpool)
 install(TARGETS main DESTINATION bin)
 
 #----------websocket------------
