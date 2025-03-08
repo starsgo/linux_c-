@@ -41,3 +41,10 @@
 /home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/list_install_components.dir
 /home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/install/local.dir
 /home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/install.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/install/strip.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/edit_cache.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/threadpool.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/rebuild_cache.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/list_install_components.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/install/local.dir
+/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/install.dir

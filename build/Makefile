@@ -250,6 +250,19 @@ http/fast:
 	$(MAKE) -f HTTP/CMakeFiles/http.dir/build.make HTTP/CMakeFiles/http.dir/build
 .PHONY : http/fast
 
+#=============================================================================
+# Target rules for targets named threadpool
+
+# Build rule for target.
+threadpool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 threadpool
+.PHONY : threadpool
+
+# fast build rule for target.
+threadpool/fast:
+	$(MAKE) -f THREADPOOL/CMakeFiles/threadpool.dir/build.make THREADPOOL/CMakeFiles/threadpool.dir/build
+.PHONY : threadpool/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -296,6 +309,7 @@ help:
 	@echo "... socket"
 	@echo "... mysql"
 	@echo "... http"
+	@echo "... threadpool"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

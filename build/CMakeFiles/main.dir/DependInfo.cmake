@@ -15,6 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../HTTP/."
   "../SOCKET/."
   "../LOG/."
+  "../THREADPOOL/."
   )
 
 # Targets to which this target links.
@@ -24,6 +25,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/gxx/Documents/Cprojects/build/HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build/LOG/CMakeFiles/log.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build/LOG/CMakeFiles/clog.dir/DependInfo.cmake"
+  "/home/gxx/Documents/Cprojects/build/THREADPOOL/CMakeFiles/threadpool.dir/DependInfo.cmake"
   "/home/gxx/Documents/Cprojects/build/SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   )
 

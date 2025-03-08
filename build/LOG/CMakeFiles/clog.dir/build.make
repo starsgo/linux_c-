@@ -63,15 +63,15 @@ include LOG/CMakeFiles/clog.dir/flags.make
 LOG/CMakeFiles/clog.dir/CLog.cpp.o: LOG/CMakeFiles/clog.dir/flags.make
 LOG/CMakeFiles/clog.dir/CLog.cpp.o: ../LOG/CLog.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LOG/CMakeFiles/clog.dir/CLog.cpp.o"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clog.dir/CLog.cpp.o -c /home/gxx/Documents/Cprojects/LOG/CLog.cpp
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/clog.dir/CLog.cpp.o -c /home/gxx/Documents/Cprojects/LOG/CLog.cpp
 
 LOG/CMakeFiles/clog.dir/CLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/clog.dir/CLog.cpp.i"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/LOG/CLog.cpp > CMakeFiles/clog.dir/CLog.cpp.i
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gxx/Documents/Cprojects/LOG/CLog.cpp > CMakeFiles/clog.dir/CLog.cpp.i
 
 LOG/CMakeFiles/clog.dir/CLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/clog.dir/CLog.cpp.s"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/LOG/CLog.cpp -o CMakeFiles/clog.dir/CLog.cpp.s
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gxx/Documents/Cprojects/LOG/CLog.cpp -o CMakeFiles/clog.dir/CLog.cpp.s
 
 LOG/CMakeFiles/clog.dir/CLog.cpp.o.requires:
 

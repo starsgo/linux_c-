@@ -3,19 +3,22 @@
 
 #include <pthread.h>
 
+extern struct thread_pool g_thread_pool;
+
+
 #define LIST_ADD(item, list) do{        \
     item->prev = NULL;                  \
     item->next = list;                  \
     if(list != NULL) list->prev = item; \
     list = item;                        \
-} while(0);
+} while(0)
 
 #define LIST_DEL(item, list) do{        \
     if(item->prev != NULL) item->prev->next = item->next;   \
     if(item->next != NULL) item->next->prev = item->prev;   \
     if(list == item) list = item->next;         \
     item->next = item->prev = NULL;;            \
-} while(0);
+} while(0)
 
 struct worker_entry{
     struct worker_entry* next;
@@ -34,7 +37,7 @@ struct task_entry{
     struct task_entry* prev;
 
     void (*task_callback)(void* arg);
-    void* user_data;
+    const void* user_data;
 };
 
 // #ifdef 0
@@ -52,7 +55,15 @@ struct thread_pool{
     pthread_mutex_t mutex;
 };
 
+
+#ifdef __cplusplus
+extern "C"{
+    int thread_pool_setup(struct thread_pool* pool, int num);
+    void task_pool_push_task(struct thread_pool* pool, struct task_entry* task);
+}
+#else
+    int thread_pool_setup(struct thread_pool* pool, int num);
+    void task_pool_push_task(struct thread_pool* pool, struct task_entry* task);
 #endif
 
-int thread_pool_setup(struct thread_pool* pool, int num);
-void task_pool_push_task(struct thread_pool* pool, struct task_entry* task);
+#endif

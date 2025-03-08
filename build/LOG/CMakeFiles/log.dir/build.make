@@ -63,15 +63,15 @@ include LOG/CMakeFiles/log.dir/flags.make
 LOG/CMakeFiles/log.dir/log.c.o: LOG/CMakeFiles/log.dir/flags.make
 LOG/CMakeFiles/log.dir/log.c.o: ../LOG/log.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object LOG/CMakeFiles/log.dir/log.c.o"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log.dir/log.c.o   -c /home/gxx/Documents/Cprojects/LOG/log.c
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/log.dir/log.c.o   -c /home/gxx/Documents/Cprojects/LOG/log.c
 
 LOG/CMakeFiles/log.dir/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/log.dir/log.c.i"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/LOG/log.c > CMakeFiles/log.dir/log.c.i
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/LOG/log.c > CMakeFiles/log.dir/log.c.i
 
 LOG/CMakeFiles/log.dir/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/log.dir/log.c.s"
-	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/LOG/log.c -o CMakeFiles/log.dir/log.c.s
+	cd /home/gxx/Documents/Cprojects/build/LOG && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/LOG/log.c -o CMakeFiles/log.dir/log.c.s
 
 LOG/CMakeFiles/log.dir/log.c.o.requires:
 

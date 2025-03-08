@@ -8,6 +8,10 @@
 
 ../LOG/log.h
 
+../THREADPOOL/threadpool.h
+pthread.h
+-
+
 /home/gxx/Documents/Cprojects/SOCKET/socket.c
 socket.h
 /home/gxx/Documents/Cprojects/SOCKET/socket.h
@@ -31,6 +35,8 @@ errno.h
 -
 log.h
 -
+threadpool.h
+/home/gxx/Documents/Cprojects/SOCKET/threadpool.h
 
 /home/gxx/Documents/Cprojects/SOCKET/socket.h
 

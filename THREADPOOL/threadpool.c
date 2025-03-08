@@ -1,8 +1,13 @@
 #include "threadpool.h"
+#include "unistd.h"
+#include <assert.h>
+
+struct thread_pool g_thread_pool;
 
 void thread_task_cycle(void* arg){
     struct worker_entry* worker = (struct worker_entry*) arg;
-    wlhile(worker->terminate){
+    while(worker->terminate == 0){
+        //printf("worker on task\n");
         pthread_mutex_lock(&worker->pool->mutex);
 
         while(worker->pool->task_queue == NULL){
@@ -13,7 +18,7 @@ void thread_task_cycle(void* arg){
 
         pthread_mutex_unlock(&worker->pool->mutex);
         
-        task->call_back(task->userdata);
+        task->task_callback(task->user_data);
     }
 }
 
@@ -33,7 +38,9 @@ int thread_pool_setup(struct thread_pool* pool, int num){
         pthread_create(&worker->id, NULL, thread_task_cycle, worker);
         usleep(1);
         LIST_ADD(worker, pool->worker_queue);
+        printf("worker:%d is working\n",index);
     }
+    return 0;
 }
 
 void task_pool_push_task(struct thread_pool* pool, struct task_entry* task){

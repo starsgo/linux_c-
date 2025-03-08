@@ -87,5 +87,8 @@ void start_http(){
 
     start_socket(&para);
     log_debug("start_http\n");
-	end_socket();
+	//end_socket();
+    while(1){
+        
+    }
 }

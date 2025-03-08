@@ -2,8 +2,8 @@ project(main CXX C)
 
 
 
-# set(x86 "true")
-set(aarch64b "true")
+set(x86 "true")
+# set(aarch64b "true")
 
 
 

@@ -63,15 +63,15 @@ include MYSQL/CMakeFiles/mysql.dir/flags.make
 MYSQL/CMakeFiles/mysql.dir/mysql.c.o: MYSQL/CMakeFiles/mysql.dir/flags.make
 MYSQL/CMakeFiles/mysql.dir/mysql.c.o: ../MYSQL/mysql.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gxx/Documents/Cprojects/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object MYSQL/CMakeFiles/mysql.dir/mysql.c.o"
-	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mysql.dir/mysql.c.o   -c /home/gxx/Documents/Cprojects/MYSQL/mysql.c
+	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mysql.dir/mysql.c.o   -c /home/gxx/Documents/Cprojects/MYSQL/mysql.c
 
 MYSQL/CMakeFiles/mysql.dir/mysql.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mysql.dir/mysql.c.i"
-	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/MYSQL/mysql.c > CMakeFiles/mysql.dir/mysql.c.i
+	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gxx/Documents/Cprojects/MYSQL/mysql.c > CMakeFiles/mysql.dir/mysql.c.i
 
 MYSQL/CMakeFiles/mysql.dir/mysql.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mysql.dir/mysql.c.s"
-	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/MYSQL/mysql.c -o CMakeFiles/mysql.dir/mysql.c.s
+	cd /home/gxx/Documents/Cprojects/build/MYSQL && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gxx/Documents/Cprojects/MYSQL/mysql.c -o CMakeFiles/mysql.dir/mysql.c.s
 
 MYSQL/CMakeFiles/mysql.dir/mysql.c.o.requires:
 

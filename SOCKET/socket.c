@@ -9,10 +9,11 @@
 #include <string.h>
 #include <errno.h>
 #include <log.h>
-
+#include "threadpool.h"
 
 void* socket_thread(void* arg){
 
+    printf("\n\n---- socket thread-----\n");
     socket_para_t* para = (socket_para_t*)arg;
     function func = para->func;
     int port = para->port;
@@ -103,17 +104,25 @@ void* socket_thread(void* arg){
     close(lfd);
 }
 
-pthread_t tid;
-
-SOCKET_STATUS start_socket(socket_para_t* socket_para){
-    int status = pthread_create(&tid,NULL,socket_thread,socket_para);
-    if(status == -1) printf("error:pthread_create()\n");
-    printf("pthread created\n");
-    return SOCKET_SUCCESS;
-}
+// pthread_t tid;
+// SOCKET_STATUS start_socket(socket_para_t* socket_para){
+//     int status = pthread_create(&tid,NULL,socket_thread,socket_para);
+//     if(status == -1) printf("error:pthread_create()\n");
+//     printf("pthread created\n");
+//     return SOCKET_SUCCESS;
+// }
 SOCKET_STATUS end_socket(){
-    int status = pthread_join(tid,NULL);
-    if(status == -1) printf("error:pthread_jion()\n");
-    printf("pthread ended\n");
-    return SOCKET_SUCCESS;
+    // int status = pthread_join(tid,NULL);
+    // if(status == -1) printf("error:pthread_jion()\n");
+    // printf("pthread ended\n");
+    // return SOCKET_SUCCESS;
+}
+
+
+struct task_entry socket_task;
+SOCKET_STATUS start_socket(socket_para_t* socket_para){
+    memset(&socket_task, 0, sizeof(struct task_entry));
+    socket_task.task_callback = socket_thread;
+    socket_task.user_data = socket_para;
+    task_pool_push_task(&g_thread_pool, &socket_task);
 }
