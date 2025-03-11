@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../HTTP/./http.h
-
-../KV/./kv.h
-thread
--
-mutex
--
-
 ../LOG/./CLog.h
 iostream
 -
@@ -24,10 +16,24 @@ fstream
 
 ../LOG/./log.h
 
-../SOCKET/./socket.h
-
 ../THREADPOOL/./threadpool.h
 pthread.h
+-
+
+../src/./http.h
+
+../src/./kv.h
+thread
+-
+mutex
+-
+
+../src/./mempool.h
+stdio.h
+-
+stdlib.h
+-
+string.h
 -
 
 /home/gxx/Documents/Cprojects/main.cpp
@@ -37,8 +43,8 @@ kv.h
 /home/gxx/Documents/Cprojects/kv.h
 threadpool.h
 /home/gxx/Documents/Cprojects/threadpool.h
-socket.h
-/home/gxx/Documents/Cprojects/socket.h
+mempool.h
+/home/gxx/Documents/Cprojects/mempool.h
 http.h
 /home/gxx/Documents/Cprojects/http.h
 log.h

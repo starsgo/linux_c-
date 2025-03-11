@@ -19,11 +19,10 @@ else(DEFINED aarch64)
     set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/output/aarch64)
 endif()
 
+add_subdirectory(src)
 add_subdirectory(LOG)
-add_subdirectory(KV)
 add_subdirectory(SOCKET)
 add_subdirectory(MYSQL)
-add_subdirectory(HTTP)
 add_subdirectory(THREADPOOL)
 
 if(DEFINED x86)
@@ -33,12 +32,12 @@ endif()
 #------------main------------------
 add_executable(main main.cpp)
 target_link_libraries(main kv)
-target_link_libraries(main pthread)
 target_link_libraries(main mysql)
 target_link_libraries(main http)
 target_link_libraries(main log)
 target_link_libraries(main clog)
 target_link_libraries(main threadpool)
+target_link_libraries(main mempool)
 install(TARGETS main DESTINATION bin)
 
 #----------websocket------------

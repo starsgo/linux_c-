@@ -93,12 +93,13 @@ main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
 main: CMakeFiles/main.dir/build.make
-main: KV/libkv.a
+main: src/libkv.a
 main: MYSQL/libmysql.a
-main: HTTP/libhttp.a
+main: src/libhttp.a
 main: LOG/liblog.a
 main: LOG/libclog.a
 main: THREADPOOL/libthreadpool.a
+main: src/libmempool.a
 main: ../tools/mysql/lib/libmysqlclient.a
 main: SOCKET/libsocket.a
 main: LOG/liblog.a

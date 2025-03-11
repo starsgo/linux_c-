@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../HTTP/CMakeLists.txt"
-  "../KV/CMakeLists.txt"
   "../LOG/CMakeLists.txt"
   "../MYSQL/CMakeLists.txt"
   "../SOCKET/CMakeLists.txt"
@@ -17,6 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
+  "../src/CMakeLists.txt"
   "../x86-linux-gnu.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.10/Modules/CMakeCXXInformation.cmake"
@@ -45,22 +44,22 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "LOG/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "KV/CMakeFiles/CMakeDirectoryInformation.cmake"
   "SOCKET/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MYSQL/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "HTTP/CMakeFiles/CMakeDirectoryInformation.cmake"
   "THREADPOOL/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "src/CMakeFiles/mempool.dir/DependInfo.cmake"
+  "src/CMakeFiles/kv.dir/DependInfo.cmake"
+  "src/CMakeFiles/http.dir/DependInfo.cmake"
   "LOG/CMakeFiles/clog.dir/DependInfo.cmake"
   "LOG/CMakeFiles/log.dir/DependInfo.cmake"
-  "KV/CMakeFiles/kv.dir/DependInfo.cmake"
   "SOCKET/CMakeFiles/socket.dir/DependInfo.cmake"
   "MYSQL/CMakeFiles/mysql.dir/DependInfo.cmake"
-  "HTTP/CMakeFiles/http.dir/DependInfo.cmake"
   "THREADPOOL/CMakeFiles/threadpool.dir/DependInfo.cmake"
   )

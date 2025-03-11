@@ -173,6 +173,45 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named mempool
+
+# Build rule for target.
+mempool: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mempool
+.PHONY : mempool
+
+# fast build rule for target.
+mempool/fast:
+	$(MAKE) -f src/CMakeFiles/mempool.dir/build.make src/CMakeFiles/mempool.dir/build
+.PHONY : mempool/fast
+
+#=============================================================================
+# Target rules for targets named kv
+
+# Build rule for target.
+kv: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kv
+.PHONY : kv
+
+# fast build rule for target.
+kv/fast:
+	$(MAKE) -f src/CMakeFiles/kv.dir/build.make src/CMakeFiles/kv.dir/build
+.PHONY : kv/fast
+
+#=============================================================================
+# Target rules for targets named http
+
+# Build rule for target.
+http: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 http
+.PHONY : http
+
+# fast build rule for target.
+http/fast:
+	$(MAKE) -f src/CMakeFiles/http.dir/build.make src/CMakeFiles/http.dir/build
+.PHONY : http/fast
+
+#=============================================================================
 # Target rules for targets named clog
 
 # Build rule for target.
@@ -199,19 +238,6 @@ log/fast:
 .PHONY : log/fast
 
 #=============================================================================
-# Target rules for targets named kv
-
-# Build rule for target.
-kv: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kv
-.PHONY : kv
-
-# fast build rule for target.
-kv/fast:
-	$(MAKE) -f KV/CMakeFiles/kv.dir/build.make KV/CMakeFiles/kv.dir/build
-.PHONY : kv/fast
-
-#=============================================================================
 # Target rules for targets named socket
 
 # Build rule for target.
@@ -236,19 +262,6 @@ mysql: cmake_check_build_system
 mysql/fast:
 	$(MAKE) -f MYSQL/CMakeFiles/mysql.dir/build.make MYSQL/CMakeFiles/mysql.dir/build
 .PHONY : mysql/fast
-
-#=============================================================================
-# Target rules for targets named http
-
-# Build rule for target.
-http: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 http
-.PHONY : http
-
-# fast build rule for target.
-http/fast:
-	$(MAKE) -f HTTP/CMakeFiles/http.dir/build.make HTTP/CMakeFiles/http.dir/build
-.PHONY : http/fast
 
 #=============================================================================
 # Target rules for targets named threadpool
@@ -303,12 +316,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... install/local"
 	@echo "... install"
+	@echo "... mempool"
+	@echo "... kv"
+	@echo "... http"
 	@echo "... clog"
 	@echo "... log"
-	@echo "... kv"
 	@echo "... socket"
 	@echo "... mysql"
-	@echo "... http"
 	@echo "... threadpool"
 	@echo "... main.o"
 	@echo "... main.i"
