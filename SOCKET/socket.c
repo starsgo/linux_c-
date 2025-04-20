@@ -125,4 +125,5 @@ SOCKET_STATUS start_socket(socket_para_t* socket_para){
     socket_task.task_callback = socket_thread;
     socket_task.user_data = socket_para;
     task_pool_push_task(&g_thread_pool, &socket_task);
+	printf("start_sokcet\n");
 }

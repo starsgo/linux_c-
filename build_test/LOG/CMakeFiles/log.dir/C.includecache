@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gxx/Documents/Cprojects/LOG/log.c
+log.h
+/home/gxx/Documents/Cprojects/LOG/log.h
+stdio.h
+/home/gxx/Documents/Cprojects/LOG/stdio.h
+time.h
+/home/gxx/Documents/Cprojects/LOG/time.h
+
+/home/gxx/Documents/Cprojects/LOG/log.h
+

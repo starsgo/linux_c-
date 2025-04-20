@@ -1,0 +1,8 @@
+@PACKAGE_INIT@
+include ( "${CMAKE_CURRENT_LIST_DIR}/mySocketTargets.cmake" )
+message(STATUS cmake_current_list_dir:${CMAKE_CURRENT_LIST_DIR})
+list(APPEND mySocket_INCLUDE_DIRS /home/gxx/Documents/Cprojects/output/x86/include )#配置头文件目录
+# list(APPEND mySocket_INCLUDE_DIRS ${CMAKE_INSTALL_PREFIX}/include )#配置头文件目录
+
+# list(APPEND mySocket_LIBRARIES_DIRS /home/gxx/Documents/Cprojects/output/x86/lib)#配置库文件目录
+# list(APPEND mySocket_INCLUDE_DIRS ${CMAKE_INSTALL_PREFIX}/include )#配置头文件目录

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gxx/Documents/Cprojects/src/mempool.c
+mempool.h
+/home/gxx/Documents/Cprojects/src/mempool.h
+
+/home/gxx/Documents/Cprojects/src/mempool.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+

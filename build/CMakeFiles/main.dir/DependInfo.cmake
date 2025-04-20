@@ -12,7 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../src/."
   "../MYSQL/."
-  "../SOCKET/."
+  "../SOCKET"
   "../LOG/."
   "../THREADPOOL/."
   )
