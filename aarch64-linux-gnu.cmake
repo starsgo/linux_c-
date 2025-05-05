@@ -8,3 +8,4 @@ set(CMAKE_CXX_COMPILER ${tools}/bin/aarch64-linux-gnu-g++)
 
 
 #cmake -DCMAKE_TOOLCHAIN_FILE=../aarch64-linux-gnu.cmake ..
+#cmake -G "MinGW Makefiles"..

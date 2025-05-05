@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"F:/Documents/CProjects/cdemo0/build2/cmake_install.cmake",
+		"F:/Documents/CProjects/cdemo0/build2/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

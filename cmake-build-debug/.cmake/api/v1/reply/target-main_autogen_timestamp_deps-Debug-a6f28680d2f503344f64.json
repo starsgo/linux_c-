@@ -1,0 +1,54 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "widget::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "log::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "kv::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "threadpool::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "mempool::@145eef247bfb46b6828c"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "clog::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "main_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "main_autogen_timestamp_deps",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

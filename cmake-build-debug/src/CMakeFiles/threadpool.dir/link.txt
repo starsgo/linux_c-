@@ -1,0 +1,2 @@
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ar.exe qc libthreadpool.a CMakeFiles/threadpool.dir/threadpool.c.obj
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ranlib.exe libthreadpool.a

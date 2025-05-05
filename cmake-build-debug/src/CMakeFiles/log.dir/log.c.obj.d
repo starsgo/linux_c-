@@ -1,0 +1,19 @@
+src/CMakeFiles/log.dir/log.c.obj: F:\Documents\CProjects\cdemo0\src\log.c \
+ F:\Documents\CProjects\cdemo0\src\log.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/stdio.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/corecrt.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/_mingw.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/swprintf.inl \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/time.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/crtdefs.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/sys/timeb.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/_timeval.h \
+ D:/software/IDEA/mingw-w64/mingw1310_64/x86_64-w64-mingw32/include/pthread_time.h

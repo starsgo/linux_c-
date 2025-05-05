@@ -2,19 +2,25 @@
 #include "kv.h"
 #include "threadpool.h"
 #include "mempool.h"
-#include "http.h"
-//#include "mysql.h"
-#include "log.h"
 #include "CLog.h"
 #include "unistd.h"
+#include "qt\widget.h"
+#include <QApplication>
 
 void test_threadpool();
 void CLog_test();
 void test_mempool();
-int main(){
-	
-	
-	if( thread_pool_setup(&g_thread_pool, 4) == 0){
+
+
+int main(int argc, char *argv[]){
+
+    QApplication a(argc, argv);
+    Widget w;
+    w.show();
+    a.exec();
+
+    return 1;
+    if( thread_pool_setup(&g_thread_pool, 4) == 0){
 	 	CLog::CDebug()<<"thread_init success\n";
 	}
 	memp_manager_init();
@@ -27,7 +33,8 @@ int main(){
 	//mysql_test();
 
 	//http_test
-	start_http();
+//	start_http();
+
 }
 
 

@@ -1,0 +1,2 @@
+D:\software\IDEA\mingw-w64\mingw64\bin\ar.exe qc libwidget.a CMakeFiles/widget.dir/widget_autogen/mocs_compilation.cpp.obj CMakeFiles/widget.dir/qt/widget.cpp.obj
+D:\software\IDEA\mingw-w64\mingw64\bin\ranlib.exe libwidget.a

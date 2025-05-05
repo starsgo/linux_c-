@@ -1,4 +1,4 @@
-
+#include <stdio.h>
 #ifdef __cplusplus
 extern "C"{
     int mysql_test();

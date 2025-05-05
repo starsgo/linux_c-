@@ -1,0 +1,2 @@
+D:\software\IDEA\mingw-w64\mingw64\bin\ar.exe qc libqtmain.a CMakeFiles/qtmain.dir/qtmain_autogen/mocs_compilation.cpp.obj CMakeFiles/qtmain.dir/qtmain.cpp.obj
+D:\software\IDEA\mingw-w64\mingw64\bin\ranlib.exe libqtmain.a

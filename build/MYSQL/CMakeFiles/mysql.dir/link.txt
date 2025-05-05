@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmysql.a  CMakeFiles/mysql.dir/mysql.c.o
-/usr/bin/ranlib libmysql.a
