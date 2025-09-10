@@ -1,0 +1,10 @@
+^D:\DOCUMENTS\CPROJECTS\DEMO\THREADPOOL\CMAKELISTS.TXT
+setlocal
+D:\software\IDEA\cmake\cmake-4.0.1-windows-x86_64\bin\cmake.exe -SD:/documents/Cprojects/demo -BD:/documents/Cprojects/demo/build-msvc --check-stamp-file D:/documents/Cprojects/demo/build-msvc/THREADPOOL/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

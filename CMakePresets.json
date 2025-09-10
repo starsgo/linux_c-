@@ -1,0 +1,67 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "msvc",
+            "hidden": true,
+            "generator": "Visual Studio 17 2022",
+            "binaryDir": "${sourceDir}/build-msvc/",
+            "cacheVariables": {
+            }
+        },
+        {
+            "name": "MSVC_Debug",
+            "inherits": "msvc",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "MSVC_Release",
+            "inherits": "msvc",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "mingw",
+            "hidden": true,
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build-mingw/",
+            "cacheVariables": {
+            }
+        },
+        {
+            "name": "MinGW_Debug",
+            "inherits": "mingw",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "MinGW_Release",
+            "inherits": "mingw",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "MinGW_Debug",
+            "configurePreset": "MinGW_Debug"
+        },
+        {
+            "name": "MinGW_Release",
+            "configurePreset": "MinGW_Release"
+        },
+        {
+            "name": "MSVC_Debug",
+            "configurePreset": "MSVC_Debug"
+        },
+        {
+            "name": "MSVC_Release",
+            "configurePreset": "MSVC_Release"
+        }
+    ]
+}

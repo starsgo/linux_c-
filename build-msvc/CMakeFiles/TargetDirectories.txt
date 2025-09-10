@@ -1,0 +1,17 @@
+D:/documents/Cprojects/demo/build-msvc/CMakeFiles/main.dir
+D:/documents/Cprojects/demo/build-msvc/CMakeFiles/INSTALL.dir
+D:/documents/Cprojects/demo/build-msvc/CMakeFiles/ALL_BUILD.dir
+D:/documents/Cprojects/demo/build-msvc/CMakeFiles/ZERO_CHECK.dir
+D:/documents/Cprojects/demo/build-msvc/src/CMakeFiles/kv.dir
+D:/documents/Cprojects/demo/build-msvc/src/CMakeFiles/mempool.dir
+D:/documents/Cprojects/demo/build-msvc/src/CMakeFiles/http.dir
+D:/documents/Cprojects/demo/build-msvc/src/CMakeFiles/INSTALL.dir
+D:/documents/Cprojects/demo/build-msvc/LOG/CMakeFiles/log.dir
+D:/documents/Cprojects/demo/build-msvc/LOG/CMakeFiles/clog.dir
+D:/documents/Cprojects/demo/build-msvc/LOG/CMakeFiles/INSTALL.dir
+D:/documents/Cprojects/demo/build-msvc/SOCKET/CMakeFiles/socket.dir
+D:/documents/Cprojects/demo/build-msvc/SOCKET/CMakeFiles/INSTALL.dir
+D:/documents/Cprojects/demo/build-msvc/MYSQL/CMakeFiles/mysql.dir
+D:/documents/Cprojects/demo/build-msvc/MYSQL/CMakeFiles/INSTALL.dir
+D:/documents/Cprojects/demo/build-msvc/THREADPOOL/CMakeFiles/threadpool.dir
+D:/documents/Cprojects/demo/build-msvc/THREADPOOL/CMakeFiles/INSTALL.dir

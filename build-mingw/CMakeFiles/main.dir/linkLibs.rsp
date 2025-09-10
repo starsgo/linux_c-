@@ -1,0 +1,1 @@
+ src/libkv.a MYSQL/libmysql.a src/libhttp.a LOG/liblog.a LOG/libclog.a THREADPOOL/libthreadpool.a src/libmempool.a D:/documents/Cprojects/demo/tools/arm/mysql/lib/libmysqlclient.a -ldl SOCKET/libsocket.a LOG/liblog.a THREADPOOL/libthreadpool.a -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

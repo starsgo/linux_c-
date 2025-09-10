@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/documents/Cprojects/demo/build-msvc/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-msvc/src/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-msvc/LOG/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-msvc/SOCKET/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-msvc/MYSQL/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-msvc/THREADPOOL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

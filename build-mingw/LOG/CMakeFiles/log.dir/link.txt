@@ -1,0 +1,2 @@
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ar.exe qc liblog.a CMakeFiles/log.dir/log.c.obj
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ranlib.exe liblog.a

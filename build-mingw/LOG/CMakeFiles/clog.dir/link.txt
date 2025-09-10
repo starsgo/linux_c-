@@ -1,0 +1,2 @@
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ar.exe qc libclog.a CMakeFiles/clog.dir/CLog.cpp.obj
+D:\software\IDEA\mingw-w64\mingw1310_64\bin\ranlib.exe libclog.a

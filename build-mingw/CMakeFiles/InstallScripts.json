@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/documents/Cprojects/demo/build-mingw/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-mingw/src/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-mingw/LOG/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-mingw/SOCKET/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-mingw/MYSQL/cmake_install.cmake",
+		"D:/documents/Cprojects/demo/build-mingw/THREADPOOL/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

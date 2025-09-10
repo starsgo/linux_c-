@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mysql.dir/mysql.c.obj"
+  "CMakeFiles/mysql.dir/mysql.c.obj.d"
+  "libmysql.a"
+  "libmysql.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/mysql.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
