@@ -1,18 +1,48 @@
 #include "socket.h"
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <sys/epoll.h>
-#include <fcntl.h>
-#include <pthread.h>
 #include <stdio.h>
-#include <unistd.h>
 #include <string.h>
 #include <errno.h>
 #include <log.h>
 #include "threadpool.h"
 
-void* socket_thread(void* arg){
 
+
+#ifdef _WIN32
+void sck_init(void)   { WSADATA w; WSAStartup(MAKEWORD(2,2), &w); }
+void sck_cleanup(void){ WSACleanup(); }
+int  sck_close(sck_t s){ return closesocket(s); }
+sck_t tcp_connect(const char *host, unsigned short port)
+{
+    struct addrinfo hints = {0}, *res;
+    hints.ai_family   = AF_UNSPEC;
+    hints.ai_socktype = SOCK_STREAM;
+
+    char port_str[16];
+    snprintf(port_str, sizeof(port_str), "%u", port);
+
+    if (getaddrinfo(host, port_str, &hints, &res) != 0)
+        return SCK_INVALID;
+
+    sck_t fd = SCK_INVALID;
+    for (struct addrinfo *p = res; p; p = p->ai_next) {
+        fd = socket(p->ai_family, p->ai_socktype, p->ai_protocol);
+        if (fd == SCK_INVALID) continue;
+        if (connect(fd, p->ai_addr, (socklen_t)p->ai_addrlen) == 0) break;
+        sck_close(fd);
+        fd = SCK_INVALID;
+    }
+    freeaddrinfo(res);
+    return fd;
+}
+
+#elif defined(__linux__)
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <sys/epoll.h>
+#include <fcntl.h>
+#include <pthread.h>
+#include <unistd.h>
+static void* socket_thread(void* arg){
     printf("\n\n---- socket thread-----\n");
     socket_para_t* para = (socket_para_t*)arg;
     function func = para->func;
@@ -103,7 +133,6 @@ void* socket_thread(void* arg){
 
     close(lfd);
 }
-
 // pthread_t tid;
 // SOCKET_STATUS start_socket(socket_para_t* socket_para){
 //     int status = pthread_create(&tid,NULL,socket_thread,socket_para);
@@ -117,9 +146,8 @@ SOCKET_STATUS end_socket(){
     // printf("pthread ended\n");
     // return SOCKET_SUCCESS;
 }
-
-
 struct task_entry socket_task;
+
 SOCKET_STATUS start_socket(socket_para_t* socket_para){
     memset(&socket_task, 0, sizeof(struct task_entry));
     socket_task.task_callback = socket_thread;
@@ -127,3 +155,5 @@ SOCKET_STATUS start_socket(socket_para_t* socket_para){
     task_pool_push_task(&g_thread_pool, &socket_task);
 	printf("start_sokcet\n");
 }
+
+#endif

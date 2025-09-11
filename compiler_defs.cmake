@@ -4,7 +4,7 @@ if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
     set(COMPILER_VER   "_MSC_VER=${_MSC_VER}")
 elseif(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
     set(COMPILER_MACRO "COMPILER_GCC")
-    set(COMPILER_VER   "__GNUC__=${__GNUC__}")
+    # set(COMPILER_VER   "__GNUC__=${__GNUC__}")
 elseif(CMAKE_CXX_COMPILER_ID MATCHES "Clang")   # 普通 Clang 或 ARMClang
     set(COMPILER_MACRO "COMPILER_CLANG")
     set(COMPILER_VER   "__clang_major__=${__clang_major__}")

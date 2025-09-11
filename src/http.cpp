@@ -3,9 +3,8 @@
 #include <sstream>
 #include <fstream>
 #include <unordered_map>
-#include <netinet/in.h>
-#include <unistd.h>
-#include <sys/stat.h>
+// #include <unistd.h>
+// #include <sys/stat.h>
 #include "socket.h"
 #include "log.h"
 
@@ -21,13 +20,11 @@ std::string getContentType(const std::string &path){
     // if(path.ends_with(".png")) return "image/png";
     // if(path.ends_with(".gif")) return "image/gif";
     // return "text/plain;
-
     return "text/html";
 }
 
 std::string readFile(const std::string &path){
     std::ifstream file(path, std::ios::binary);
-
     if(!file.is_open()) return "notFound";
 
     std::ostringstream ss;
@@ -40,6 +37,9 @@ bool fileExists(const std::string &path){
     return true;
 }
 
+
+#ifdef __linux__
+#include <netinet/in.h>
 void http_requeset(char* buffer, int size, int socket_fd){
     std::string Buffer = buffer;
     std::cout<<"http request\n"<<Buffer << '\n';
@@ -79,8 +79,10 @@ void http_requeset(char* buffer, int size, int socket_fd){
         send(socket_fd, response.c_str(), response.length(), 0);
     }
 }
+#endif
 
 void start_http(){
+#ifdef __linux__
     socket_para_t para;
     para.func = http_requeset;
     para.port = 8087;
@@ -91,4 +93,20 @@ void start_http(){
     while(1){
         
     }
+#endif
+#ifdef _WIN32
+    sck_init();
+    sck_t s = tcp_connect("127.0.0.1", 8080);
+    if (s == SCK_INVALID) {
+        perror("connect");
+        return 1;
+    }
+
+    const char *msg = "Hello from .h/.c split!\n";
+    send(s, msg, strlen(msg), 0);   /* POSIX/Win32 通用宏 */
+
+    sck_close(s);
+    sck_cleanup();
+    return 0;
+#endif
 }

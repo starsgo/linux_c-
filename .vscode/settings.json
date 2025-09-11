@@ -49,6 +49,7 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "mempool.h": "c"
+        "mempool.h": "c",
+        "threadpool.h": "c"
     }
 }

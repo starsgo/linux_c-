@@ -2,6 +2,14 @@
     "version": 3,
     "configurePresets": [
         {
+            "name": "GNU",
+            "generator": "Unix Makefiles",
+            "binaryDir": "${sourceDir}/build/",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
             "name": "msvc",
             "hidden": true,
             "generator": "Visual Studio 17 2022",
@@ -47,6 +55,10 @@
         }
     ],
     "buildPresets": [
+        {
+            "name": "Debug",
+            "configurePreset": "GNU"
+        },
         {
             "name": "MinGW_Debug",
             "configurePreset": "MinGW_Debug"

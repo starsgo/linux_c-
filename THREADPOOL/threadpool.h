@@ -1,10 +1,13 @@
 #ifndef __THRREDPOOL_H
 #define __THREADPOOL_H
 
+
+#ifdef _WIN32
+
+#elif defined(__linux__)
+
 #include <pthread.h>
-
 extern struct thread_pool g_thread_pool;
-
 
 #define LIST_ADD(item, list) do{        \
     item->prev = NULL;                  \
@@ -66,4 +69,5 @@ extern "C"{
     void task_pool_push_task(struct thread_pool* pool, struct task_entry* task);
 #endif
 
+#endif
 #endif

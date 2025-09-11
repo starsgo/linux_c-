@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/main.dir/main.cpp.o -o main  src/libkv.a MYSQL/libmysql.a src/libhttp.a LOG/liblog.a LOG/libclog.a THREADPOOL/libthreadpool.a src/libmempool.a ../tools/arm/mysql/lib/libmysqlclient.a -ldl SOCKET/libsocket.a LOG/liblog.a THREADPOOL/libthreadpool.a -lpthread 
