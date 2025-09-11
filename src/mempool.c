@@ -1,5 +1,6 @@
 #include "mempool.h"
 
+#ifdef __linux__
 mempool_t g_memp;
 mempool_t* g_memp_mangaer[NUM_MEMPOOLS];
 
@@ -77,7 +78,7 @@ void myfree(void* ptr){
     return _free(mem_ptr,ptr - sizeof(void*));
 }
 
-
+#endif
 /*
 typedef struct data_s{
     int a;

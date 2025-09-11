@@ -1,36 +1,42 @@
 #include <iostream>
 #include "kv.h"
-#include "threadpool.h"
-#include "mempool.h"
-#include "http.h"
+// #include "threadpool.h"
+// #include "mempool.h"
+#include "myhttp.h"
 //#include "mysql.h"
 #include "log.h"
 #include "CLog.h"
-#include "unistd.h"
+// #include "unistd.h"
 
-void test_threadpool();
-void CLog_test();
-void test_mempool();
+// void CLog_test();
 int main(){
 	
-	
+#ifdef __linux__
 	if( thread_pool_setup(&g_thread_pool, 4) == 0){
 	 	CLog::CDebug()<<"thread_init success\n";
 	}
 	memp_manager_init();
-
-	//teset_threadpool
-	test_threadpool();
-
 	//test_mempool
 	test_mempool();
 	//mysql_test();
 
+	//teset_threadpool
+	test_threadpool();
+#endif
+	
+
 	//http_test
+#ifdef __linux__
 	start_http();
+#endif
+#ifdef _WIN32
+	start_http();
+#endif
 }
 
-
+#ifdef __linux__
+void test_threadpool();
+void test_mempool();
 void task_default(void* arg){
 	char* str = (char*) arg;
 	// while(1){
@@ -44,8 +50,6 @@ struct task_entry task0;
 struct task_entry task1;
 struct task_entry task2;
 struct task_entry task3;
-
-
 
 void test_threadpool(){
 	//task0
@@ -64,8 +68,21 @@ void test_threadpool(){
 	task3.task_callback =  task_default;
 	task3.user_data = "111111";
 	task_pool_push_task(&g_thread_pool, &task3);
-
 }
+
+void test_mempool(){
+	int i = 0;
+	void* temp;
+	for(i = 0; i< 3; i++){
+		temp = mymalloc(89);
+		printf("malloc temp: %p\n",temp);
+		*(int*)temp = 20;
+	}
+	myfree(temp);
+	temp = mymalloc(89);
+	printf("malloc temp: %p\n",temp);
+}
+#endif
 void CLog_test(){
 	//clog test
 	CLog::CDebug() << "CLog string" << 9 << "\n";
@@ -93,15 +110,3 @@ void kv_test(){
 	std::cout << ret;
 } 
 
-void test_mempool(){
-	int i = 0;
-	void* temp;
-	for(i = 0; i< 3; i++){
-		temp = mymalloc(89);
-		printf("malloc temp: %p\n",temp);
-		*(int*)temp = 20;
-	}
-	myfree(temp);
-	temp = mymalloc(89);
-	printf("malloc temp: %p\n",temp);
-}

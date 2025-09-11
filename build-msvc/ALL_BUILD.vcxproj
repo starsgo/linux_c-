@@ -194,21 +194,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{3D67471D-3E37-3D5E-82CB-836DCB015663}</Project>
       <Name>main</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\src\mempool.vcxproj">
-      <Project>{2F50BF97-64C5-32D0-8A13-489D87310742}</Project>
-      <Name>mempool</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\MYSQL\mysql.vcxproj">
-      <Project>{1B7B61BC-737B-3393-B3CA-A5E98CF2D4E4}</Project>
-      <Name>mysql</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\SOCKET\socket.vcxproj">
       <Project>{7485F6CB-7C3A-3E63-A31D-D36154DEF1A7}</Project>
       <Name>socket</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\THREADPOOL\threadpool.vcxproj">
-      <Project>{4DDAD5B6-9B57-3E33-9FA2-1827199D27A9}</Project>
-      <Name>threadpool</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

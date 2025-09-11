@@ -96,10 +96,10 @@ void start_http(){
 #endif
 #ifdef _WIN32
     sck_init();
-    sck_t s = tcp_connect("127.0.0.1", 8080);
+    sck_t s = tcp_connect("172.30.124.97", 8085);
     if (s == SCK_INVALID) {
         perror("connect");
-        return 1;
+        return;
     }
 
     const char *msg = "Hello from .h/.c split!\n";
@@ -107,6 +107,6 @@ void start_http(){
 
     sck_close(s);
     sck_cleanup();
-    return 0;
+    return;
 #endif
 }

@@ -1,7 +1,9 @@
 #include "threadpool.h"
+
+
+#ifdef __linux__
 #include "unistd.h"
 #include <assert.h>
-
 struct thread_pool g_thread_pool;
 
 void thread_task_cycle(void* arg){
@@ -51,3 +53,4 @@ void task_pool_push_task(struct thread_pool* pool, struct task_entry* task){
 
     pthread_mutex_unlock(&pool->mutex);
 }
+#endif

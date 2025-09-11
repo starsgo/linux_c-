@@ -27,8 +27,8 @@ message(STATUS "message unwork")
 add_subdirectory(src)
 add_subdirectory(LOG)
 add_subdirectory(SOCKET)
-add_subdirectory(MYSQL)
-add_subdirectory(THREADPOOL)
+# add_subdirectory(MYSQL)
+# add_subdirectory(THREADPOOL)
 
 # if(DEFINED x86)
 # endif()
@@ -36,17 +36,19 @@ add_subdirectory(THREADPOOL)
 #------------main------------------
 add_executable(main main.cpp)
 target_link_libraries(main kv)
-target_link_libraries(main mysql)
+# target_link_libraries(main mysql)
 target_link_libraries(main http)
 target_link_libraries(main log)
 target_link_libraries(main clog)
-target_link_libraries(main threadpool)
-target_link_libraries(main mempool)
+# target_link_libraries(main threadpool)
+# target_link_libraries(main mempool)
+target_link_libraries(main socket)
+
 # install(TARGETS main DESTINATION bin)
 
-target_link_libraries(main
-    compiler_defs
-)
+# target_link_libraries(main
+#     compiler_defs
+# )
 
 # install(EXPORT mySocketTargets
 #   FILE mySocketTargets.cmake

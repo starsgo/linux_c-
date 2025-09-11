@@ -7,14 +7,21 @@
 #define BUFFER_SIZE 1024
 
 #ifdef _WIN32
-#  include <winsock2.h>
-#  include <ws2tcpip.h>
-#  pragma comment(lib, "ws2_32.lib")
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#pragma comment(lib, "ws2_32.lib")
 typedef SOCKET sck_t;
-#  define SCK_INVALID INVALID_SOCKET
+#define SCK_INVALID INVALID_SOCKET
+#ifdef __cplusplus
+    extern "C"{
+        void sck_init(void);
+        void sck_cleanup(void);
+        sck_t tcp_connect(const char *host, unsigned short port);
+        int   sck_close(sck_t s);
+    }
+#endif
 void sck_init(void);
 void sck_cleanup(void);
-
 sck_t tcp_connect(const char *host, unsigned short port);
 int   sck_close(sck_t s);
 

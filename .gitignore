@@ -1,0 +1,14 @@
+# === 编译产物 ===
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+build/
+build-msvc/
+build-mingw/

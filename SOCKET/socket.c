@@ -1,16 +1,17 @@
 #include "socket.h"
 #include <stdio.h>
 #include <string.h>
-#include <errno.h>
-#include <log.h>
-#include "threadpool.h"
-
-
 
 #ifdef _WIN32
-void sck_init(void)   { WSADATA w; WSAStartup(MAKEWORD(2,2), &w); }
-void sck_cleanup(void){ WSACleanup(); }
-int  sck_close(sck_t s){ return closesocket(s); }
+void sck_init(void){ 
+    WSADATA w; WSAStartup(MAKEWORD(2,2), &w);
+}
+void sck_cleanup(void){
+    WSACleanup();
+}
+int  sck_close(sck_t s){
+    return closesocket(s);
+}
 sck_t tcp_connect(const char *host, unsigned short port)
 {
     struct addrinfo hints = {0}, *res;
@@ -42,6 +43,9 @@ sck_t tcp_connect(const char *host, unsigned short port)
 #include <fcntl.h>
 #include <pthread.h>
 #include <unistd.h>
+#include <errno.h>
+#include <log.h>
+#include "threadpool.h"
 static void* socket_thread(void* arg){
     printf("\n\n---- socket thread-----\n");
     socket_para_t* para = (socket_para_t*)arg;

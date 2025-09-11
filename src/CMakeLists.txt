@@ -4,9 +4,9 @@ target_include_directories(kv INTERFACE ".")
 install(TARGETS kv DESTINATION lib)
 
 #   MEMPOOL
-add_library(mempool mempool.c)
-target_include_directories(mempool INTERFACE ".")
-install(TARGETS mempool DESTINATION lib)
+# add_library(mempool mempool.c)
+# target_include_directories(mempool INTERFACE ".")
+# install(TARGETS mempool DESTINATION lib)
 
 
 #   HTTP

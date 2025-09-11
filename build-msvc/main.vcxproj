@@ -86,13 +86,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -102,16 +102,16 @@
       <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -119,7 +119,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\Debug\kv.lib;MYSQL\Debug\mysql.lib;src\Debug\http.lib;LOG\Debug\log.lib;LOG\Debug\clog.lib;THREADPOOL\Debug\threadpool.lib;src\Debug\mempool.lib;D:\documents\Cprojects\demo\tools\arm\mysql\lib\libmysqlclient.a;dl.lib;SOCKET\Debug\socket.lib;LOG\Debug\log.lib;THREADPOOL\Debug\threadpool.lib;pthread.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\Debug\kv.lib;src\Debug\http.lib;LOG\Debug\log.lib;LOG\Debug\clog.lib;SOCKET\Debug\socket.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -134,12 +134,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -149,18 +149,18 @@
       <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -168,7 +168,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\Release\kv.lib;MYSQL\Release\mysql.lib;src\Release\http.lib;LOG\Release\log.lib;LOG\Release\clog.lib;THREADPOOL\Release\threadpool.lib;src\Release\mempool.lib;D:\documents\Cprojects\demo\tools\arm\mysql\lib\libmysqlclient.a;dl.lib;SOCKET\Release\socket.lib;LOG\Release\log.lib;THREADPOOL\Release\threadpool.lib;pthread.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\Release\kv.lib;src\Release\http.lib;LOG\Release\log.lib;LOG\Release\clog.lib;SOCKET\Release\socket.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -183,12 +183,12 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -198,18 +198,18 @@
       <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -217,7 +217,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\MinSizeRel\kv.lib;MYSQL\MinSizeRel\mysql.lib;src\MinSizeRel\http.lib;LOG\MinSizeRel\log.lib;LOG\MinSizeRel\clog.lib;THREADPOOL\MinSizeRel\threadpool.lib;src\MinSizeRel\mempool.lib;D:\documents\Cprojects\demo\tools\arm\mysql\lib\libmysqlclient.a;dl.lib;SOCKET\MinSizeRel\socket.lib;LOG\MinSizeRel\log.lib;THREADPOOL\MinSizeRel\threadpool.lib;pthread.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\MinSizeRel\kv.lib;src\MinSizeRel\http.lib;LOG\MinSizeRel\log.lib;LOG\MinSizeRel\clog.lib;SOCKET\MinSizeRel\socket.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -232,13 +232,13 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard>stdcpp17</LanguageStandard>
       <MinimalRebuild></MinimalRebuild>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -248,16 +248,16 @@
       <SuppressStartupBanner></SuppressStartupBanner>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;COMPILER_MSVC;_MSC_VER=;ARCH_64BIT;SYSTEM_WINDOWS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\MYSQL\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;D:\documents\Cprojects\demo\THREADPOOL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\documents\Cprojects\demo\src\.;D:\documents\Cprojects\demo\SOCKET;D:\documents\Cprojects\demo\LOG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -265,7 +265,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>src\RelWithDebInfo\kv.lib;MYSQL\RelWithDebInfo\mysql.lib;src\RelWithDebInfo\http.lib;LOG\RelWithDebInfo\log.lib;LOG\RelWithDebInfo\clog.lib;THREADPOOL\RelWithDebInfo\threadpool.lib;src\RelWithDebInfo\mempool.lib;D:\documents\Cprojects\demo\tools\arm\mysql\lib\libmysqlclient.a;dl.lib;SOCKET\RelWithDebInfo\socket.lib;LOG\RelWithDebInfo\log.lib;THREADPOOL\RelWithDebInfo\threadpool.lib;pthread.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>src\RelWithDebInfo\kv.lib;src\RelWithDebInfo\http.lib;LOG\RelWithDebInfo\log.lib;LOG\RelWithDebInfo\clog.lib;SOCKET\RelWithDebInfo\socket.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -362,21 +362,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{3EF06F50-7665-3065-A9CE-F0B384C15783}</Project>
       <Name>log</Name>
     </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\src\mempool.vcxproj">
-      <Project>{2F50BF97-64C5-32D0-8A13-489D87310742}</Project>
-      <Name>mempool</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\MYSQL\mysql.vcxproj">
-      <Project>{1B7B61BC-737B-3393-B3CA-A5E98CF2D4E4}</Project>
-      <Name>mysql</Name>
-    </ProjectReference>
     <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\SOCKET\socket.vcxproj">
       <Project>{7485F6CB-7C3A-3E63-A31D-D36154DEF1A7}</Project>
       <Name>socket</Name>
-    </ProjectReference>
-    <ProjectReference Include="D:\documents\Cprojects\demo\build-msvc\THREADPOOL\threadpool.vcxproj">
-      <Project>{4DDAD5B6-9B57-3E33-9FA2-1827199D27A9}</Project>
-      <Name>threadpool</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

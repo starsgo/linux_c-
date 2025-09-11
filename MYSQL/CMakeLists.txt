@@ -13,6 +13,7 @@ endif()
 target_link_libraries(mysql INTERFACE ${LIBREALPATH})
 
 #import pthread dl
-target_link_libraries(mysql INTERFACE dl pthread)
-
+if(CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
+    target_link_libraries(mysql INTERFACE dl pthread)
+endif()
 install(TARGETS mysql DESTINATION lib)

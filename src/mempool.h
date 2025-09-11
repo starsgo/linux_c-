@@ -12,8 +12,9 @@
 #define MEMPOOL_1_BLOCKNUM  8
 #define MEMPOOL_2_BLOCKNUM  8
 #define MEMPOOL_3_BLOCKNUM  8
-
+#ifdef __linux__
 typedef struct mempool_s{
+    
     int block_size;
     int free_count;
     void* mem;
@@ -36,7 +37,7 @@ extern "C"{
 int memp_init(mempool_t* mp, size_t block_size, size_t block_num);
 void* _malloc(mempool_t* mp, size_t size);
 void _free(mempool_t* mp, void* ptr);
-
+#endif
 // #define malloc(size)    _malloc(size)
 // #define free(size)      _free(size)
 
